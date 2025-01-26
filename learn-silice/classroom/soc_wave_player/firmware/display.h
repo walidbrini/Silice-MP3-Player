@@ -10,3 +10,7 @@ void display_putchar(int c);
 void display_refresh();
 void dual_putchar(int c);
 volatile unsigned char *display_framebuffer();
+
+
+// added 
+void display_show_image();
